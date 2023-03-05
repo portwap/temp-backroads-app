@@ -24,6 +24,11 @@ export const pageLinks = [
     href: '#tours',
     text: 'tours',
   },
+  {
+    id: 5,
+    href: '#reviews',
+    text: 'reviews',
+  },
 ];
 
 export const socialLinks = [
@@ -75,7 +80,7 @@ export const tours = [
     icon: 'fas fa-map',
     location: 'china',
     duration: '6',
-    price: '2100'
+    price: '2100',
   },
   {
     id: 2,
@@ -86,7 +91,7 @@ export const tours = [
     icon: 'fas fa-map',
     location: 'indonesia',
     duration: '11',
-    price: '1400'
+    price: '1400',
   },
   {
     id: 3,
@@ -97,7 +102,7 @@ export const tours = [
     icon: 'fas fa-map',
     location: 'hong kong',
     duration: '8',
-    price: '5000'
+    price: '5000',
   },
   {
     id: 4,
@@ -108,6 +113,45 @@ export const tours = [
     icon: 'fas fa-map',
     location: 'kenya',
     duration: '20',
-    price: '3300'
+    price: '3300',
   },
-]
+];
+
+export const peopleData = [
+  {
+    id: 1,
+    image:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+    name: 'maria ferguson',
+    title: 'office manager',
+    quote:
+      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+  },
+  {
+    id: 2,
+    image:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+    name: 'john doe',
+    title: 'regular guy',
+    quote:
+      'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+  },
+  {
+    id: 3,
+    image:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
+    name: 'peter smith',
+    title: 'product designer',
+    quote:
+      'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+  },
+  {
+    id: 4,
+    image:
+      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+    name: 'susan andersen',
+    title: 'the boss',
+    quote:
+      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+  },
+];
