@@ -6,6 +6,12 @@ import Tours from './components/Tours';
 import Footer from './components/Footer';
 import Reviews from './components/Reviews';
 
+// connected to netlify
+// after chagnes
+// git add .
+// git commit -m 'comment'
+// git push
+
 function App() {
   return (
     <>
