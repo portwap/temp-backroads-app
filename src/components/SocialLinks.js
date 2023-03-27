@@ -1,3 +1,5 @@
+// не используется пока что
+
 import { socialLinks } from '../data';
 
 const SocialLinks = ({ parenClass, itemClass }) => {

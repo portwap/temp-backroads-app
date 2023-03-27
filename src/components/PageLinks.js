@@ -1,3 +1,5 @@
+// not used
+
 import { pageLinks } from "../data";
 
 const PageLinks = ({parenClass, itemClass}) => {
